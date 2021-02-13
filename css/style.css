@@ -48,6 +48,7 @@ body{
     font-family: "Mermaid1001";
     font-size: 4vw;
     margin: 10vw;
+    background-color:white)
 }
 #title{
     font-family: "Mermaid1001";
@@ -60,6 +61,9 @@ body{
 #mheading{
     margin-top: 10vw;
     margin-bottom: 10vw;
+}
+.comment{
+    font-size: 2vw;
 }
 img{
     width:50%
