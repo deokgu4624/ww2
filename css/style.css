@@ -39,16 +39,18 @@ input{-webkit-appearance:none;border-radius:0;font-family:'Montserrat',Apple SD 
 input[type=number]{-moz-appearance:textfield}
 input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
 fieldset{border:none}
+
 @font-face{
     src: url(../fonts/Mermaid1001.ttf);
     font-family: "Mermaid1001";
 }
 body{
+    overflow-x: hidden;
     color: black;
     font-family: "Mermaid1001";
     font-size: 4vw;
     margin: 10vw;
-    background-color:white)
+    background-color:white
 }
 #title{
     font-family: "Mermaid1001";
@@ -57,6 +59,7 @@ body{
 #subtitle{
     font-family: "Mermaid1001";
     font-size: 5vw;
+    margin-top: 20vw;
 }
 #mheading{
     margin-top: 10vw;
@@ -66,5 +69,9 @@ body{
     font-size: 2vw;
 }
 img{
-    width:50%
+    width:30%;
+}
+.front-image{
+    position: absolute;
+    z-index: -1;
 }
