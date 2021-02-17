@@ -69,7 +69,7 @@ body{
     font-size: 2vw;
 }
 img{
-    width:30%;
+    width:25%;
 }
 .front-image{
     position: absolute;
@@ -80,10 +80,18 @@ img{
     top: 5vw;
 }
 #front-image2{
-    left: 30vw;
+    left: 28vw;
     top: 10vw;
 }
 #front-image3{
-    left: 65vw;
+    left: 5vw;
+    top: 22vw;
+}
+#front-image4{
+    left: 85vw;
+    top: 7vw;
+}
+#front-image5{
+    left: 55vw;
     top: 7vw;
 }
