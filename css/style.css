@@ -75,3 +75,15 @@ img{
     position: absolute;
     z-index: -1;
 }
+#front-image1{
+    left: 0vw;
+    top: 5vw;
+}
+#front-image2{
+    left: 30vw;
+    top: 10vw;
+}
+#front-image3{
+    left: 65vw;
+    top: 7vw;
+}
