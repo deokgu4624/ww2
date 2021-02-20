@@ -4,7 +4,7 @@ var i;
 var j;
 var num = [];
 for(i=0; i<front_image.length; i++){
-    num[i] = Math.floor(Math.random()*5)+1;
+    num[i] = Math.floor(Math.random()*7)+1;
     console.log(num);
     front_image[i].id = "front-image"+num[i];
     for(j=0; j<num.length-1; j++){
