@@ -17,6 +17,18 @@ for(i=0; i<front_image.length; i++){
     }
 }
 
+var targetPos;
+function moveleft(){    
+    for(i=0; i<front_image.length; i++){
+        var targetPos = front_image[i].getBoundingClientRect().left;
+        targetPos -= 1;
+        front_image[i].style.left = (targetPos/window.innerWidth)*100 + "vw";
+    }
+    console.log(front_image[0].getBoundingClientRect().left)
+}
+
+setInterval(moveleft, 1000/10);
+
 
 // var t;
 // var l;
