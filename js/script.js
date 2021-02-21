@@ -4,7 +4,7 @@ var i;
 var j;
 var num = [];
 for(i=0; i<front_image.length; i++){
-    num[i] = Math.floor(Math.random()*7)+1;
+    num[i] = Math.floor(Math.random()*front_image.length)+1;
     console.log(num);
     front_image[i].id = "front-image"+num[i];
     for(j=0; j<num.length-1; j++){
@@ -23,6 +23,9 @@ function moveleft(){
         var targetPos = front_image[i].getBoundingClientRect().left;
         targetPos -= 1;
         front_image[i].style.left = (targetPos/window.innerWidth)*100 + "vw";
+        if((targetPos/window.innerWidth)*100<-25){
+            front_image[i].style.left = 100 + "vw";
+        }
     }
     console.log(front_image[0].getBoundingClientRect().left)
 }
