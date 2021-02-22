@@ -45,20 +45,32 @@ fieldset{border:none}
     font-family: "Next Southerland Serif DEMO";
 }
 @font-face{
-    src: url(../fonts/MADE\ Bon\ Voyage\ Thin\ PERSONAL\ USE.otf);
+    src: url(../fonts/MADE\ Bon\ Voyage\ Regular\ PERSONAL\ USE.otf);
     font-family: "Voyage";
+}
+@font-face{
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-family: "roboto";
 }
 body{
     overflow-x: hidden;
     color: black;
-    font-family: "Voyage";
-    font-size: 4vw;
+    font-family: "roboto";
+    font-size: 1vw;
     margin: 10vw;
     background-color:#F2F2F2;
 }
 #title{
     font-family: "Next Southerland Serif DEMO";
     font-size: 6vw;
+}
+#modifier{
+    font-family: "Next Southerland Serif DEMO";
+    font-size: 2vw;
+}
+#modifier2{
+    font-family: "roboto";
+    font-size: .9vw;
 }
 #subtitle{
     font-family: "Next Southerland Serif DEMO";
@@ -70,8 +82,8 @@ body{
     margin-bottom: 10vw;
 }
 .comment{
-    font-family: "Next Southerland Serif DEMO";
-    font-size: 2vw;
+    font-family: "roboto";
+    font-size: 0.8vw;
 }
 img{
     width:40%;
