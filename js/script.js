@@ -23,7 +23,7 @@ function moveleft(){
         var targetPos = front_image[i].getBoundingClientRect().left;
         targetPos -= 1;
         front_image[i].style.left = (targetPos/window.innerWidth)*100 + "vw";
-        if((targetPos/window.innerWidth)*100<-25){
+        if((targetPos/window.innerWidth)*100<-320){
             front_image[i].style.left = 100 + "vw";
         }
     }

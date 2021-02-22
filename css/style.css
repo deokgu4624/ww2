@@ -41,32 +41,27 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
 fieldset{border:none}
 
 @font-face{
-    src: url(../fonts/Mermaid1001.ttf);
-    font-family: "Mermaid1001";
+    src: url(../fonts/Next\ Southerland\ Serif\ DEMO.ttf);
+    font-family: "Next Southerland Serif DEMO";
+}
+@font-face{
+    src: url(../fonts/MADE\ Bon\ Voyage\ Thin\ PERSONAL\ USE.otf);
+    font-family: "Voyage";
 }
 body{
     overflow-x: hidden;
     color: black;
-    font-family: "Mermaid1001";
+    font-family: "Voyage";
     font-size: 4vw;
     margin: 10vw;
-    background-color:white
+    background-color:#F2F2F2;
 }
 #title{
-    font-family: "Mermaid1001";
-    font-size: 14vw;
-}
-#btn{
-    font-size: 1.5vw;
-    text-align: center;
-    padding: 10px;
-    width: 10vw;
-    height: 2vw;
-    border: 1px solid black;
-    margin: 0 auto;
+    font-family: "Next Southerland Serif DEMO";
+    font-size: 6vw;
 }
 #subtitle{
-    font-family: "Mermaid1001";
+    font-family: "Next Southerland Serif DEMO";
     font-size: 5vw;
     margin-top: 20vw;
 }
@@ -75,52 +70,55 @@ body{
     margin-bottom: 10vw;
 }
 .comment{
+    font-family: "Next Southerland Serif DEMO";
     font-size: 2vw;
 }
 img{
-    width:25%;
+    width:40%;
+    top: 50%; transform: translateY(-50%);
 }
 .front-image{
     position: absolute;
+    opacity: 50%;
     z-index: -1;
 }
 #front-image1{
     left: 0vw;
-    top: 5vw;
+
 }
 #front-image2{
-    left: 28vw;
-    top: 10vw;
+    left: 42vw;
+
 }
 #front-image3{
-    left: 5vw;
-    top: 22vw;
+    left: 84vw;
+
 }
 #front-image4{
-    left: 85vw;
-    top: 7vw;
+    left: 126vw;
+
 }
 #front-image5{
-    left: 33vw;
-    top: 31vw;
+    left: 168vw;
+
 }
 #front-image6{
-    left: 59vw;
-    top: 24vw;
+    left: 210vw;
+
 }
 #front-image7{
-    left: 55vw;
-    top: 7vw;
+    left: 252vw;
+
 }
 #front-image8{
-    left: 85vw;
-    top: 31vw;
+    left: 294vw;
+
 }
 #front-image9{
-    left: 26vw;
-    top: -10vw;
+    left: 336vw;
+
 }
 #front-image10{
-    left: 0vw;
-    top: 33vw;
+    left: 378vw;
+
 }
