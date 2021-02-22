@@ -79,25 +79,16 @@ body{
     top: 28vw;
     left: 50%; transform: translateX(-50%);
 }
-#subtitle{
-    font-family: "Next Southerland Serif DEMO";
-    font-size: 5vw;
-    margin-top: 200vw;
-}
-#mheading{
-    margin-top: 10vw;
-    margin-bottom: 10vw;
-}
-.comment{
-    font-family: "roboto";
-    font-size: 0.8vw;
+#wrapper{
+    position: relative;
+    top: 50vw;
 }
 img{
     width:40%;
-    top: 25vw; transform: translateY(-50%);
 }
 .front-image{
     position: absolute;
+    top: 25vw; transform: translateY(-50%);
     opacity: 50%;
     z-index: -1;
 }
