@@ -79,13 +79,15 @@ h3{
     font-family: "Voyage";
     font-size: 4vw;
 }
+li{
+    font-size: 4vw;
+}
 .comment{
     font-size: .8vw;
     font-family: "roboto";
 }
 #wrapper{
     position: relative;
-    top: 50vw;
 }
 img{
     width:40%;
