@@ -1,4 +1,4 @@
-//랜덤 이미지 배치
+//랜덤 이미지
 var front_image = document.getElementsByClassName("front-image");
 var i;
 var j;
@@ -16,7 +16,7 @@ for(i=0; i<front_image.length; i++){
         }
     }
 }
-
+//이미지 이동
 var targetPos;
 function moveleft(){    
     for(i=0; i<front_image.length; i++){

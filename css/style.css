@@ -41,10 +41,6 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
 fieldset{border:none}
 
 @font-face{
-    src: url(../fonts/Next\ Southerland\ Serif\ DEMO.ttf);
-    font-family: "Next Southerland Serif DEMO";
-}
-@font-face{
     src: url(../fonts/MADE\ Bon\ Voyage\ Regular\ PERSONAL\ USE.otf);
     font-family: "Voyage";
 }
@@ -55,19 +51,19 @@ fieldset{border:none}
 body{
     overflow-x: hidden;
     color: black;
-    font-family: "roboto";
+    font-family: "Voyage";
     font-size: 1vw;
     margin: 10vw;
     background-color:#F2F2F2;
 }
 #title{
-    font-family: "Next Southerland Serif DEMO";
+    font-family: "Voyage";
     font-size: 6vw;
     position: absolute;
     top: 19vw; left: 50%; transform: translateX(-50%);
 }
 #modifier{
-    font-family: "Next Southerland Serif DEMO";
+    font-family: "Voyage";
     font-size: 2vw;
     position: absolute;
     top: 18vw; left: 50%; transform: translate(-50%, -50%);
@@ -78,6 +74,14 @@ body{
     position: absolute;
     top: 28vw;
     left: 50%; transform: translateX(-50%);
+}
+h3{
+    font-family: "Voyage";
+    font-size: 4vw;
+}
+.comment{
+    font-size: .8vw;
+    font-family: "roboto";
 }
 #wrapper{
     position: relative;
