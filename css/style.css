@@ -48,23 +48,104 @@ fieldset{border:none}
     src: url(../fonts/Roboto-Regular.ttf);
     font-family: "roboto";
 }
+#whitecircle{
+    background-color: white;
+    width: 200px; height: 200px;
+    border-radius: 100%;
+    position: absolute;
+    top: 500px; left: 300px;
+}
+#redbox{
+    background-color: rgb(151, 0, 0);
+    width: 50vw; height: 50vw;
+    animation: redbox1 1s;
+    animation-iteration-count:1;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+    position: absolute;
+    z-index: -1;
+}
+@keyframes redbox1{
+    0%{
+        clip-path: polygon(0% 0%, 0% 14%, 0% 29%, 0% 48%, 0% 64%, 0% 80%, 0% 97%, 0% 100%, 0% 100%, 0% 0%);
+    }
+    100%{
+        clip-path: polygon(29% 0%, 24% 14%, 25% 29%, 31% 48%, 34% 64%, 37% 80%, 36% 97%, 33% 100%, 0% 100%, 0% 0%);
+    }
+}
+@keyframes redbox2{
+    0%{
+        clip-path: polygon(29% 0%, 24% 14%, 25% 29%, 31% 48%, 34% 64%, 37% 80%, 36% 97%, 33% 100%, 0% 100%, 0% 0%);
+    }
+    100%{
+        clip-path: polygon(44% 0, 52% 14%, 53% 32%, 48% 49%, 40% 65%, 40% 79%, 47% 92%, 55% 100%, 0% 100%, 0% 0%);
+    }
+}
+@keyframes redbox3{    
+    0%{
+        clip-path: polygon(44% 0, 52% 14%, 53% 32%, 48% 49%, 40% 65%, 40% 79%, 47% 92%, 55% 100%, 0% 100%, 0% 0%);
+    }
+    100%{
+        clip-path: polygon(76% 0, 69% 17%, 65% 34%, 66% 51%, 71% 68%, 81% 82%, 84% 93%, 83% 100%, 0% 100%, 0% 0%);
+    }
+}
+@keyframes redbox4{    
+    0%{
+        clip-path: polygon(76% 0, 69% 17%, 65% 34%, 66% 51%, 71% 68%, 81% 82%, 84% 93%, 83% 100%, 0% 100%, 0% 0%);
+    }
+    100%{
+        clip-path: polygon(100% 0, 100% 15%, 100% 36%, 100% 51%, 100% 68%, 100% 83%, 100% 92%, 100% 100%, 0% 100%, 0% 0%);
+    }
+}
+@keyframes redbox-1{
+    0%{
+        clip-path: polygon(29% 0%, 24% 14%, 25% 29%, 31% 48%, 34% 64%, 37% 80%, 36% 97%, 33% 100%, 0% 100%, 0% 0%);
+    }
+    100%{
+        clip-path: polygon(0% 0%, 0% 14%, 0% 29%, 0% 48%, 0% 64%, 0% 80%, 0% 97%, 0% 100%, 0% 100%, 0% 0%);
+    }
+}
+@keyframes redbox-2{
+    0%{
+        clip-path: polygon(44% 0, 52% 14%, 53% 32%, 48% 49%, 40% 65%, 40% 79%, 47% 92%, 55% 100%, 0% 100%, 0% 0%);
+    }
+    100%{
+        clip-path: polygon(29% 0%, 24% 14%, 25% 29%, 31% 48%, 34% 64%, 37% 80%, 36% 97%, 33% 100%, 0% 100%, 0% 0%);
+    }
+}
+@keyframes redbox-3{    
+    0%{
+        clip-path: polygon(76% 0, 69% 17%, 65% 34%, 66% 51%, 71% 68%, 81% 82%, 84% 93%, 83% 100%, 0% 100%, 0% 0%);
+    }
+    100%{
+        clip-path: polygon(44% 0, 52% 14%, 53% 32%, 48% 49%, 40% 65%, 40% 79%, 47% 92%, 55% 100%, 0% 100%, 0% 0%);
+    }
+}
+@keyframes redbox-4{    
+    0%{
+        clip-path: polygon(100% 0, 100% 15%, 100% 36%, 100% 51%, 100% 68%, 100% 83%, 100% 92%, 100% 100%, 0% 100%, 0% 0%);
+    }
+    100%{
+        clip-path: polygon(76% 0, 69% 17%, 65% 34%, 66% 51%, 71% 68%, 81% 82%, 84% 93%, 83% 100%, 0% 100%, 0% 0%);       
+    }
+}
 body{
     overflow-x: hidden;
     color: black;
-    font-family: "Voyage";
+    font-family: "roboto";
     font-size: 1vw;
     margin: 10vw;
     background-color:#F2F2F2;
 }
 #title{
-    font-family: "Voyage";
-    font-size: 6vw;
+    font-family: "roboto";
+    font-size: 1vw;
     position: absolute;
     top: 19vw; left: 50%; transform: translateX(-50%);
 }
 #modifier{
-    font-family: "Voyage";
-    font-size: 2vw;
+    font-family: "roboto";
+    font-size: 1vw;
     position: absolute;
     top: 18vw; left: 50%; transform: translate(-50%, -50%);
 }
@@ -76,11 +157,11 @@ body{
     left: 50%; transform: translateX(-50%);
 }
 h3{
-    font-family: "Voyage";
+    font-family: "roboto";
     font-size: 4vw;
 }
 li{
-    font-size: 4vw;
+    font-size: .8vw;
 }
 .comment{
     font-size: .8vw;
