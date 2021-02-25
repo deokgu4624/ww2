@@ -26,6 +26,19 @@ function running(){
     redbox.style.animationPlayState = "running";
 }
 
+$(window).bind('wheel', function(e){
+    if (e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
+        // scroll up
+        console.log("스크롤 위로");
+        console.log(e);
+        forward();
+    }
+    else {
+        // scroll down
+        console.log("스크롤 아래로");
+        back();
+    }
+});
 // //랜덤 이미지
 // var front_image = document.getElementsByClassName("front-image");
 // var i;
