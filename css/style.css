@@ -60,6 +60,7 @@ fieldset{border:none}
     border-radius: 100%;
     position: absolute;
     top: 500px; left: 300px;
+    box-shadow: inset 10px 10px 50px black;
 }
 #redbox{
     background-color: rgb(44, 0, 0);
