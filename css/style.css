@@ -52,8 +52,44 @@ fieldset{border:none}
     position: absolute;
     top: 0; left: 0;
     width: 100%; height: 100%;
-    box-shadow: inset 0 0 200px black;
+    box-shadow: inset 0 0 200px 30px black;
+    animation: gradientSize 1.5s infinite;
 }
+@keyframes gradientSize {
+    0%{
+      opacity: 0.3;
+    }
+    10%{
+      opacity: 0.4;
+    }
+    20%{
+      opacity: 0.25;
+    }
+    30%{
+      opacity: 0.5;
+    }
+    40%{
+      opacity: 0.75;
+    }
+    50%{
+      opacity: 0.5;
+    }
+    60%{
+      opacity: 1;
+    }
+    70%{
+      opacity: 0.75
+    }
+    80%{
+      opacity: 0.5;
+    }
+    90%{
+      opacity: 0.25;
+    }
+    100%{
+      opacity: 0.5;
+    }
+  }
 #whitecircle{
     background-color: white;
     width: 200px; height: 200px;
@@ -72,6 +108,7 @@ fieldset{border:none}
     animation-play-state: paused;
     position: absolute;
     z-index: -1;
+    
 }
 
 @keyframes redbox1{
@@ -172,6 +209,12 @@ body{
     top: 28vw;
     left: 50%; transform: translateX(-50%);
 }
+#texture{
+    width: 100%; height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    opacity: 10%;
+}
 h3{
     font-family: "roboto";
     font-size: 4vw;
@@ -186,10 +229,7 @@ li{
 #wrapper{
     position: relative;
 }
-img{
-    width:40%;
-    opacity: 50%;
-}
+
 .front-image{
     position: absolute;
     top: 25vw; transform: translateY(-50%);
