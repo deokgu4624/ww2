@@ -209,7 +209,7 @@ body{
 }
 #modifier2{
     color: white;
-    text-shadow: 10px 10px 20px black;
+    text-shadow: 10px 10px 10px black;
     font-family: "lemonmilk";
     font-size: .9vw;
     position: absolute;
