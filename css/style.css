@@ -108,11 +108,16 @@ fieldset{border:none}
     position: absolute;
     z-index: -1;  
 }
-svg{
+#map{
     position: absolute;
     width: 100%;
     top: -20vw; left: 0;
     z-index: -1
+}
+#cross{
+    width: 90%;
+    position: absolute;
+    top: 50%; left: 50%; transform: translate(-50%, -50%);
 }
 @keyframes redbox1{
     0%{
