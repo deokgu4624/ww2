@@ -95,7 +95,7 @@ fieldset{border:none}
     width: 5vw; height: 5vw;
     border-radius: 100%;
     position: absolute;
-    top: 17vw; left: 42vw;
+    top: 18vw; left: 53vw;
 }
 #redbox{
     background-color: rgb(73, 1, 1);
@@ -111,7 +111,7 @@ fieldset{border:none}
 #map{
     position: absolute;
     width: 100%;
-    top: -28vw; left: 0;
+    top: -20vw; left: 0;
     z-index: -1
 }
 #texture{
