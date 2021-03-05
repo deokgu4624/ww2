@@ -51,7 +51,7 @@ fieldset{border:none}
 #background{
     position: absolute;
     top: 0; left: 0;
-    width: 100%; height: 100%;
+    width: 1920px; height: 969px;
     box-shadow: inset 0 0 200px 30px black;
     animation: gradientSize 1.5s infinite;
 }
@@ -189,11 +189,11 @@ fieldset{border:none}
     }
 }
 body{
-    overflow: hidden;
     color: black;
     font-family: "roboto";
     font-size: 1vw;
     background-color:#292929;
+    overflow: hidden;
 }
 #title{
     font-family: "lemonmilk";
