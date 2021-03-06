@@ -1,14 +1,13 @@
 var circle = document.getElementById("whitecircle");
 var redbox = document.getElementById("redbox");
 var title = document.getElementById("title");
+var test = document.getElementsByClassName("test");
 var x = 1;
 
-circle.addEventListener("click", forward);
-title.addEventListener("click", back);
 
 function forward(){
-    redbox.style.animationName = "redbox"+x;
-    redbox.style.animationPlayState = "paused";
+    test[0].style.animationName = "test"+x;
+    test[0].style.animationPlayState = "paused";
     setTimeout(running, 1000);
     x+=1;
     console.log(x);
@@ -16,14 +15,14 @@ function forward(){
 
 function back(){
     x-=1;
-    redbox.style.animationName = "redbox"+"-"+x;
-    redbox.style.animationPlayState = "paused";
+    test[0].style.animationName = "test"+"-"+x;
+    test[0].style.animationPlayState = "paused";
     setTimeout(running, 1000);
     
     console.log(x);
 }
 function running(){
-    redbox.style.animationPlayState = "running";
+    test[0].style.animationPlayState = "running";
 }
 
 $(window).bind('wheel', function(e){
